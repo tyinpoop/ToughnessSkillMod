@@ -1,0 +1,11 @@
+<ModMetaData>
+  <name>Toughness Skill</name>
+  <author>tyinplop</author>
+  <description>
+    Adds a custom "Toughness" skill that reduces bleed rate and incoming damage
+  </description>
+  <supportedVersions>
+    <li>1.5</li> 
+  </supportedVersions>
+  <packageId>tyinplop.ToughnessSkillMod</packageId>
+</ModMetaData>

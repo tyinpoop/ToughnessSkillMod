@@ -1,0 +1,12 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <!-- Note that the xpath goes ONLY up to the StatDef, no "/parts" at the end -->
+    <xpath>Defs/StatDef[defName="IncomingDamageFactor"]</xpath>
+    <value>
+      <!-- We create the <parts> node ourselves -->
+      <parts>
+        <li Class="ToughnessSkillMod.StatPart_ToughnessDamage" />
+      </parts>
+    </value>
+  </Operation>
+</Patch>

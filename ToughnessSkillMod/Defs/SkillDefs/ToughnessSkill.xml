@@ -1,0 +1,8 @@
+<Defs>
+  <SkillDef>
+    <defName>Toughness</defName>
+    <label>toughness</label>
+    <skillLabel>toughness</skillLabel>
+    <description>A measure of a pawn's resilience, reducing damage and bleed.</description>
+  </SkillDef>
+</Defs>
