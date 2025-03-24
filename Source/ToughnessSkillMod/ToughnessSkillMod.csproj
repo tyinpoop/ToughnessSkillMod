@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <Target Name="CopyToModAssemblies" AfterTargets="Build">
+    <Exec Command="xcopy /Y /Q &quot;$(OutputPath)ToughnessSkillMod.dll&quot; &quot;$(MSBuildProjectDirectory)\..\..\Assemblies\&quot;" />
+  </Target>
+
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>c:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>c:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>c:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>c:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="HugsLib">
+      <HintPath>c:\Program Files (x86)\Steam\steamapps\workshop\content\294100\818773962\v1.5\Assemblies\HugsLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

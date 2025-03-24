@@ -1,0 +1,11 @@
+<Patch>
+  <!-- Operation 1: If no <parts> node exists, create one with your entry -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="IncomingDamageFactor" and not(parts)]</xpath>
+    <value>
+      <parts>
+        <li Class="ToughnessSkillMod.StatPart_ToughnessDamage" />
+      </parts>
+    </value>
+  </Operation>
+</Patch>

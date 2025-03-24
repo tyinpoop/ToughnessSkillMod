@@ -1,0 +1,8 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Human"]/comps</xpath>
+      <value>
+      <li Class="ToughnessSkillMod.CompProperties_ToughnessCache" />
+    </value>
+  </Operation>
+</Patch>

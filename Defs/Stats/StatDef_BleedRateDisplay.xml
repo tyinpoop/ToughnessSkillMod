@@ -1,0 +1,16 @@
+<Defs>
+  <StatDef>
+    <defName>FinalBleedRate</defName>
+    <label>bleed rate</label>
+    <description>Shows the approximate final bleed rate factor for this pawn, factoring in any implants (like Coagulators) and the Toughness skill.</description>
+    <category>Basics</category> 
+    <!-- Could be PawnCombat or somewhere else, 
+         but Basics is a simple place to show it. -->
+    <defaultBaseValue>1.0</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <displayPriorityInCategory>9999</displayPriorityInCategory>
+    <parts>
+      <li Class="ToughnessSkillMod.StatPart_FinalBleedRate" />
+    </parts>
+  </StatDef>
+</Defs>

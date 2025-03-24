@@ -1,0 +1,6 @@
+<Defs>
+  <GameComponent>
+    <defName>ToughnessInitializer</defName>
+    <compClass>ToughnessSkillMod.ToughnessInitializer</compClass>
+  </GameComponent>
+</Defs>
